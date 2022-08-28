@@ -18,8 +18,15 @@
 //! A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration. The thick shell contains the seeds and pulp. The name is most commonly used for cultivars of Cucurbita pepo, but some cultivars of Cucurbita maxima, C. argyrosperma, and C. moschata with similar appearance are also sometimes called "pumpkins".
 //! ![here is a pumpkinn in case you don't know what it is](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FrenchMarketPumpkinsB.jpg/700px-FrenchMarketPumpkinsB.jpg)
 
+/// Big orange thing
+///
+/// # Recipes
+/// *Coming soon!*
+///
 pub struct Pumpkin {
+    /// percentage of how round your pumpkin is
     pub roundness: f32,
+    /// Orangeness. Between 8 and 27.
     pub orangeness: i32,
 }
 
